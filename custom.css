@@ -2,3 +2,8 @@
 body{
   font-family:'Roboto';
 }
+.expando-out, .expando-in{
+  display:none;
+}
+  
+  
