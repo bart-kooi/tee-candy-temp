@@ -2,10 +2,12 @@
 .box>header>h1, .expando h1 a, .expando h1 a:visited{font-size: 20px; color: #666666;font-weight: normal;}
 
 #renderer::before{
+	content:"";
 	background: url('https://www.google.co.za/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png');
 }
 
 body::before{
+	content:"";
 	background: url('https://www.google.co.za/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png');
 }
 
