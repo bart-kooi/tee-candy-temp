@@ -1,187 +1,274 @@
 /* tab headers color = #ed1a3b */
-.box>header>h1, .expando h1 a, .expando h1 a:visited{font-size: 20px; color: #666666;font-weight: normal;}
-
-#renderer::before{
-	content:"";
-	background: url('https://www.google.co.za/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png');
+.box > header > h1,
+.expando h1 a,
+.expando h1 a:visited {
+  font-size: 20px;
+  color: #666666;
+  font-weight: normal;
 }
 
-body::before{
-	content:"";
-	background: url('https://www.google.co.za/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png');
+#renderer::before {
+  content: "";
+  background: url("https://www.google.co.za/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png");
 }
 
-
-#page-sidebar{
-	padding: 10px;
-	border: 1px solid #c6cccf;
-	border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-	width: 300px;
-	background-color: white;	
-
+body::before {
+  content: "";
+  background: url("https://www.google.co.za/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png");
 }
 
-.box > header > h1:hover, .expando:hover h1:hover a:hover, .expando:hover h1:hover a :hover {
-    color: #ed1a3b;
-
+#page-sidebar {
+  padding: 10px;
+  border: 1px solid #c6cccf;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  width: 300px;
+  background-color: white;
 }
 
+.box > header > h1:hover,
+.expando:hover h1:hover a:hover,
+.expando:hover h1:hover a :hover {
+  color: #ed1a3b;
+}
 
-#page-sidebar article{
-    border-radius: 0px;
-    -moz-border-radius: 0px;
-    -webkit-border-radius: 0px;
-	-moz-box-shadow: 0px;
-    -webkit-box-shadow: 0px;
-    box-shadow: none;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
+#page-sidebar article {
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-box-shadow: 0px;
+  -webkit-box-shadow: 0px;
+  box-shadow: none;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
 
-	padding-left: 5px; 
-	padding-right: 5px;
-	margin-left: 0px;
-	margin-right: 0px
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 /* add to basket button */
-#page-sidebar #add-to-cart{
-    margin: 9px;
-    border-radius: 47px;
-    background: #ed1a3b;
-    padding: 11px;
-    width: 260px;
-    font-size: 6px;
-    height: 24px;
-	}
+#page-sidebar #add-to-cart {
+  margin: 9px;
+  border-radius: 47px;
+  background: #ed1a3b;
+  padding: 11px;
+  width: 260px;
+  font-size: 6px;
+  height: 24px;
+}
 #page-sidebar #add-to-cart h1 {
-  color: #FFF !important; /*de kleur*/
-  font-size: 20px;  /*de tekstgrootte*/
+  color: #fff !important; /*de kleur*/
+  font-size: 20px; /*de tekstgrootte*/
   background-color: #ed1a3b; /*achtergronkleur van de button*/
   font-weight: normal;
 }
 
-#page-sidebar #add-to-cart .add-to-cart-icon{display: none;}
+#page-sidebar #add-to-cart .add-to-cart-icon {
+  display: none;
+}
 
-#page-sidebar h1{text-align: left; margin-left: 40px}
+#page-sidebar h1 {
+  text-align: left;
+  margin-left: 40px;
+}
 
+#page-sidebar #views-container .expando header {
+  background-image: url("http://promotionalcontent.promidata.com/3d/css/cssimages/aanzicht.png");
+  background-repeat: no-repeat;
+  background-position: -2% 50%;
+  text-align: left;
+}
+#page-sidebar #views-container .expando header a::after {
+  content:"Select your print area";
+  clear: both;
+  font-size: 10px;
+  display: block;
+  text-align: left;
+}
 
-#page-sidebar #views-container .expando header{background-image: url('http://promotionalcontent.promidata.com/3d/css/cssimages/aanzicht.png'); background-repeat: no-repeat; background-position: -2% 50%; text-align: left}
-#page-sidebar #views-container .expando header a::after{content: Ã¢â‚¬Å“Select your print areaÃ¢â‚¬Å“; clear: both; font-size: 10px; display: block; text-align: left}
+#page-sidebar #text-areas-container .expando header {
+  background-image: url("http://promotionalcontent.promidata.com/3d/css/cssimages/tekst.png");
+  background-repeat: no-repeat;
+  background-position: -2% 50%;
+}
+#page-sidebar #text-areas-container .expando header a::after {
+  content: "Select your font and font size";
+  clear: both;
+  font-size: 10px;
+  display: block;
+  text-align: left;
+}
 
-#page-sidebar #text-areas-container .expando header{background-image: url('http://promotionalcontent.promidata.com/3d/css/cssimages/tekst.png'); background-repeat: no-repeat; background-position: -2% 50%}
-#page-sidebar #text-areas-container .expando header a::after{content: Ã¢â‚¬Å“Select your font and font sizeÃ¢â‚¬Å“; clear: both; font-size: 10px; display: block; text-align: left}
+#page-sidebar #image-areas-container .expando header {
+  background-image: url("http://promotionalcontent.promidata.com/3d/css/cssimages/logo.png");
+  background-repeat: no-repeat;
+  background-position: -1% 50%;
+}
+#page-sidebar #image-areas-container .expando header a::after {
+  content: "Upload an image";
+  clear: both;
+  font-size: 10px;
+  display: block;
+  text-align: left;
+}
 
-#page-sidebar #image-areas-container .expando header{background-image: url('http://promotionalcontent.promidata.com/3d/css/cssimages/logo.png'); background-repeat: no-repeat; background-position: -1% 50%}
-#page-sidebar #image-areas-container .expando header a::after{content: Ã¢â‚¬Å“Upload an imageÃ¢â‚¬Å“; clear: both; font-size: 10px; display: block; text-align: left}
+#page-sidebar #colour-areas-container .expando header {
+  background-image: url("http://promotionalcontent.promidata.com/3d/css/cssimages/kleuren.png");
+  background-repeat: no-repeat;
+  background-position: -5% 69%;
+}
+#page-sidebar #colour-areas-container .expando header a::after {
+  content: "Choose a colour";
+  clear: both;
+  font-size: 10px;
+  display: block;
+  text-align: left;
+}
 
-#page-sidebar #colour-areas-container .expando header{background-image: url('http://promotionalcontent.promidata.com/3d/css/cssimages/kleuren.png'); background-repeat: no-repeat; background-position: -5% 69%}
-#page-sidebar #colour-areas-container .expando header a::after{content: Ã¢â‚¬Å“Choose a colourÃ¢â‚¬Å“; clear: both; font-size: 10px; display: block; text-align: left}
+#page-sidebar #attributes-container .expando header {
+  background-image: url("http://promotionalcontent.promidata.com/3d/css/cssimages/maten.png");
+  background-repeat: no-repeat;
+  background-position: -1% 69%;
+}
+#page-sidebar #attributes-container .expando header a::after {
+  content: "Select your size";
+  clear: both;
+  font-size: 10px;
+  display: block;
+  text-align: left;
+}
 
-#page-sidebar #attributes-container .expando header{background-image: url('http://promotionalcontent.promidata.com/3d/css/cssimages/maten.png'); background-repeat: no-repeat;     background-position: -1% 69%;}
-#page-sidebar #attributes-container .expando header a::after{content: Ã¢â‚¬Å“Select your sizeÃ¢â‚¬Å“; clear: both; font-size: 10px; display: block; text-align: left}
-
-#page-sidebar .quantity-tab.box header{background-image: url('http://promotionalcontent.promidata.com/3d/css/cssimages/aantal.png'); background-repeat: no-repeat; background-position: 0% 50%}
-#page-sidebar .quantity-tab.box header h1::after{content: Ã¢â‚¬Å“Choose the order quantityÃ¢â‚¬Å“; clear: both; font-size: 10px; display: block; text-align: left}
-
+#page-sidebar .quantity-tab.box header {
+  background-image: url("http://promotionalcontent.promidata.com/3d/css/cssimages/aantal.png");
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+}
+#page-sidebar .quantity-tab.box header h1::after {
+  content: "Choose the order quantity";
+  clear: both;
+  font-size: 10px;
+  display: block;
+  text-align: left;
+}
 
 #page-sidebar #add-to-cart header h1 {
-    background-image: url(http://promotionalcontent.promidata.com/3d/css/cssimages/winkelwagen.png);
-    background-repeat: no-repeat;
-    background-position: 4% 47%;
-    padding: 1px 0px;
-    margin: 0px;
-    background-size: 25px;
+  background-image: url(http://promotionalcontent.promidata.com/3d/css/cssimages/winkelwagen.png);
+  background-repeat: no-repeat;
+  background-position: 4% 47%;
+  padding: 1px 0px;
+  margin: 0px;
+  background-size: 25px;
 }
 
 #page-sidebar #add-to-cart h1 {
-    color: #FFF !important;
-    font-size: 17px;
-    background-color: #ed1a3b;
-    font-weight: normal;
+  color: #fff !important;
+  font-size: 17px;
+  background-color: #ed1a3b;
+  font-weight: normal;
 }
 
-#page-sidebar #add-to-cart header h1 span{margin-left: 50px;}
-#page-sidebar .styled-select{width: 100%;}
-#page-sidebar .styled-select select{line-height: 2;padding-left: 20px;}
-#page-sidebar .colour-panel{max-height: none;}
-#page-sidebar .colour-panel .colour-box{width: 28px; height: 28px; margin: 4px;}
+#page-sidebar #add-to-cart header h1 span {
+  margin-left: 50px;
+}
+#page-sidebar .styled-select {
+  width: 100%;
+}
+#page-sidebar .styled-select select {
+  line-height: 2;
+  padding-left: 20px;
+}
+#page-sidebar .colour-panel {
+  max-height: none;
+}
+#page-sidebar .colour-panel .colour-box {
+  width: 28px;
+  height: 28px;
+  margin: 4px;
+}
 
-#pricing-summary, #bottom-prices{ display: block; }
-#product-info-price{display: block;font-size: 10pt;}
-#product-info-name{    float: left;
-        font-size: 10pt;
-    margin: 2px;
-    padding: 2px;
-    width: 70%;
-    box-sizing: border-box;}
-#bottom-prices>article h1 {
-    font-size: 1.0em;
-    font-weight: bold;
-    width: 100px;
-}	
+#pricing-summary,
+#bottom-prices {
+  display: block;
+}
+#product-info-price {
+  display: block;
+  font-size: 10pt;
+}
+#product-info-name {
+  float: left;
+  font-size: 10pt;
+  margin: 2px;
+  padding: 2px;
+  width: 70%;
+  box-sizing: border-box;
+}
+#bottom-prices > article h1 {
+  font-size: 1em;
+  font-weight: bold;
+  width: 100px;
+}
 #product-info {
-    margin: 6px;
+  margin: 6px;
 }
 
-#bottom-prices>article {
-	border: hidden;
+#bottom-prices > article {
+  border: hidden;
 }
 
-#page-sidebar { 
-  display: flex; 
-  /* Optional, if you want the DIVs 100% width: */ 
+#page-sidebar {
+  display: flex;
+  /* Optional, if you want the DIVs 100% width: */
   flex-direction: column;
 }
 
 #page-sidebar > #bottom-prices {
-	    margin-top: -17px;
+  margin-top: -17px;
 }
 
-#bottom-prices>article {
-    width: 100%;
-	margin-bottom: 2px;
+#bottom-prices > article {
+  width: 100%;
+  margin-bottom: 2px;
 }
 
-#bottom-prices > article:nth-child(1) > header > h1{
-	float:left;
-	margin-left: -1px;
-	font-weight: normal;
-	
+#bottom-prices > article:nth-child(1) > header > h1 {
+  float: left;
+  margin-left: -1px;
+  font-weight: normal;
 }
 
-#bottom-prices > article:nth-child(2) > header > h1{
-	float:left;
-	margin-left: -1px;		
+#bottom-prices > article:nth-child(2) > header > h1 {
+  float: left;
+  margin-left: -1px;
 }
 
-
-#bottom-prices > article > h2{
-    float: right;
-    padding-right: 20px;
-	padding-top: 3px;
+#bottom-prices > article > h2 {
+  float: right;
+  padding-right: 20px;
+  padding-top: 3px;
 }
 
-#product-info{
-	display:none;
+#product-info {
+  display: none;
 }
 
-#help-outer-container > article > div{
-	padding-left:7px;
+#help-outer-container > article > div {
+  padding-left: 7px;
 }
 
-#pricing-summary > table > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(3){
-	    padding-right: 20px;
-		    float: right;
+#pricing-summary > table > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(3) {
+  padding-right: 20px;
+  float: right;
 }
 
-#pricing-summary > table > tbody:nth-child(5) > tr:nth-child(1) > td:nth-child(3){
-		    padding-right: 20px;
-		    float: right;
+#pricing-summary > table > tbody:nth-child(5) > tr:nth-child(1) > td:nth-child(3) {
+  padding-right: 20px;
+  float: right;
 }
-#pricing-summary > table > tbody:nth-child(5) > tr:nth-child(3) > td:nth-child(3){
-		    padding-right: 20px;
-		    float: right;
+#pricing-summary > table > tbody:nth-child(5) > tr:nth-child(3) > td:nth-child(3) {
+  padding-right: 20px;
+  float: right;
 }
