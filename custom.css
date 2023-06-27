@@ -1,6 +1,9 @@
 /* tab headers color = #ed1a3b */
 .box>header>h1, .expando h1 a, .expando h1 a:visited{font-size: 20px; color: #666666;font-weight: normal;}
 
+#page-content::before{
+	background: url('https://www.google.co.za/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png');
+}
 
 #page-sidebar{
 	padding: 10px;
