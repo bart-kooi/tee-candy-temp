@@ -126,20 +126,6 @@
   flex-direction: column;
 }
 
-#page-sidebar > #views-container { order: 1; }
-#page-sidebar > #add-to-cart { order: 2; }
-#page-sidebar > #product-info { order: 3; }
-#page-sidebar > #pricing-summary { order: 4; }
-#page-sidebar > #bottom-prices { order: 5; }
-#page-sidebar > .quantity-tab { order: 6; }
-#page-sidebar > #textures-container { order: 7; }
-#page-sidebar > #aspects { order: 8; }
-#page-sidebar > #text-areas-container { order: 9; }
-#page-sidebar > #image-areas-container { order: 10; }
-#page-sidebar > #colour-areas-container { order: 11; }
-#page-sidebar > #effects-container { order: 12; }
-#page-sidebar > #attributes-container { order: 13; }
-
 #page-sidebar > #bottom-prices {
 	    margin-top: -17px;
 }
