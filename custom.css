@@ -5,6 +5,11 @@
 	background: url('https://www.google.co.za/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png');
 }
 
+body::before{
+	background: url('https://www.google.co.za/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png');
+}
+
+
 #page-sidebar{
 	padding: 10px;
 	border: 1px solid #c6cccf;
