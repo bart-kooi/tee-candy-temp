@@ -7,16 +7,6 @@
   font-weight: normal;
 }
 
-#renderer::before {
-  content: "";
-  background: url("https://www.google.co.za/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png");
-}
-
-body::before {
-  content: "";
-  background: url("https://www.google.co.za/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png");
-}
-
 #page-sidebar {
   padding: 10px;
   border: 1px solid #c6cccf;
@@ -61,9 +51,9 @@ body::before {
   height: 24px;
 }
 #page-sidebar #add-to-cart h1 {
-  color: #fff !important; /*de kleur*/
-  font-size: 20px; /*de tekstgrootte*/
-  background-color: #ed1a3b; /*achtergronkleur van de button*/
+  color: #fff !important;
+  font-size: 20px;
+  background-color: #ed1a3b;
   font-weight: normal;
 }
 
