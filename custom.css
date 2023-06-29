@@ -144,6 +144,13 @@
   display: block;
   text-align: left;
 }
+#page-sidebar .simple-quantity{
+  width:100px;
+}
+#page-sidebar .quantity-input{
+  width:30px !important;
+  padding:5px;
+  border-radius:5px;
 
 #page-sidebar #add-to-cart header h1 {
   background-image: url(http://promotionalcontent.promidata.com/3d/css/cssimages/winkelwagen.png);
