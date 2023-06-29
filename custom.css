@@ -313,6 +313,16 @@
   float: right;
 }
 
+.popup-contents{
+  padding:10px;
+}
+
+.popup-contents input{
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 0;
+}
+
 .popup-contents .actions>button{
     background: #e94949;
     color: white;
