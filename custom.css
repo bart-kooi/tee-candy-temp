@@ -324,6 +324,7 @@ body{
 .popup-contents{
   padding:10px;
   left:10%;
+  position:fixed;
 }
 
 .popup-contents input{
@@ -352,10 +353,6 @@ body{
 }
 
 .popup-mask{
-  position:fixed;
-}
-
-#save-enquiry-popup .popup-contents{
   position:fixed;
 }
 
