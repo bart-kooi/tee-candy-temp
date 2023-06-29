@@ -212,7 +212,7 @@
 }
 #page-sidebar .styled-select {
   width: 100%;
-    background: url(https://bart-kooi.github.io/tee-candy-temp/chevron-down.png);
+    background: url("https://bart-kooi.github.io/tee-candy-temp/chevron-down.png");
     background-size: 25px 25px;
     background-position: right 10px center;
     background-repeat: no-repeat;
