@@ -82,14 +82,14 @@
   text-align: left;
 }
 
-#page-sidebar #save-sample .expando header {
+#page-sidebar #save-sample header {
   background-image: url("https://bart-kooi.github.io/tee-candy-temp/enquire.png");
   background-repeat: no-repeat;
   background-size: 40px 40px;
   background-position: left center;
   text-align: left;
 }
-#page-sidebar #save-sample .expando header a::after {
+#page-sidebar #save-sample header a::after {
   content:"Submit an enquiry";
   clear: both;
   font-size: 10px;
