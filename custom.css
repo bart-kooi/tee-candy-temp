@@ -83,11 +83,11 @@
 }
 
 #page-sidebar #save-sample header {
-  background-image: url("https://bart-kooi.github.io/tee-candy-temp/enquire.png");
+  background-image: url(https://bart-kooi.github.io/tee-candy-temp/enquire.png);
   background-repeat: no-repeat;
-  background-size: 40px 40px;
-  background-position: left center;
+  background-position: left 10px center;
   text-align: left;
+  background-size: contain;
 }
 #page-sidebar #save-sample header a::after {
   content:"Submit an enquiry";
