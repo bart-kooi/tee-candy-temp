@@ -83,7 +83,7 @@
 }
 
 #page-sidebar #save-sample header {
-  background-image: url(https://bart-kooi.github.io/tee-candy-temp/enquire.png);
+  background-image: url("https://bart-kooi.github.io/tee-candy-temp/enquire.png");
   background-repeat: no-repeat;
   background-position: left 10px center;
   text-align: left;
