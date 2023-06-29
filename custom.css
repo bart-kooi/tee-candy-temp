@@ -355,7 +355,7 @@ body{
   position:fixed;
 }
 
-.save-enquiry-popup .popup-contents{
+#save-enquiry-popup .popup-contents{
   position:fixed;
 }
 
