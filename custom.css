@@ -329,6 +329,11 @@
     border-radius: 20px;
 }
 
+.text-area-input{
+  padding:5px;
+  border-radius:5px;
+}
+
 .font-img{
   max-width:80%;
 }
