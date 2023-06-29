@@ -21,7 +21,7 @@
 .box > header > h1:hover,
 .expando:hover h1:hover a:hover,
 .expando:hover h1:hover a :hover {
-  color: #ed1a3b;
+  color: #e94949;
 }
 
 #page-sidebar article {
@@ -45,7 +45,7 @@
 #page-sidebar #add-to-cart {
   margin: 9px;
   border-radius: 47px;
-  background: #ed1a3b;
+  background: #e94949;
   padding: 11px;
   width: 260px;
   font-size: 6px;
@@ -54,7 +54,7 @@
 #page-sidebar #add-to-cart h1 {
   color: #fff !important;
   font-size: 20px;
-  background-color: #ed1a3b;
+  background-color: #e94949;
   font-weight: normal;
 }
 
@@ -167,7 +167,7 @@
 #page-sidebar #add-to-cart h1 {
   color: #fff !important;
   font-size: 17px;
-  background-color: #ed1a3b;
+  background-color: #e94949;
   font-weight: normal;
 }
 
