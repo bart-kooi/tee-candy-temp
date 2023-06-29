@@ -329,8 +329,9 @@
     border-radius: 20px;
 }
 
-@media only screen and (max-width: 767px)
-#add-to-cart {
-    display: block;
-    width: 93%;
+@media only screen and (max-width: 767px) {
+  #add-to-cart {
+      display: block;
+      width: 93%;
+  }
 }
