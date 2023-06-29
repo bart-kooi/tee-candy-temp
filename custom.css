@@ -2,6 +2,8 @@
 
 body{
   font-family:'Poppins';
+  overflow-y:scroll;
+  overflow-x:hidden;
 }
 
 /* tab headers color = #ed1a3b */
