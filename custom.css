@@ -70,7 +70,8 @@
 #page-sidebar #aspects .expando header {
   background-image: url("https://bart-kooi.github.io/tee-candy-temp/view-angles.png");
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size: 40px 40px;
+  background-position: left center;
   text-align: left;
 }
 #page-sidebar #aspects .expando header a::after {
@@ -84,7 +85,8 @@
 #page-sidebar #views-container .expando header {
   background-image: url("https://bart-kooi.github.io/tee-candy-temp/size.png");
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size: 40px 40px;
+  background-position: left center;
   text-align: left;
 }
 #page-sidebar #views-container .expando header a::after {
@@ -98,7 +100,8 @@
 #page-sidebar #text-areas-container .expando header {
   background-image: url("https://bart-kooi.github.io/tee-candy-temp/add-text.png");
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size: 40px 40px;
+  background-position: left center;
 }
 #page-sidebar #text-areas-container .expando header a::after {
   content: "Select your font and font size";
@@ -111,7 +114,8 @@
 #page-sidebar #image-areas-container .expando header {
   background-image: url("https://bart-kooi.github.io/tee-candy-temp/add-image.png");
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size: 40px 40px;
+  background-position: left center;
 }
 #page-sidebar #image-areas-container .expando header a::after {
   content: "Upload an image";
