@@ -190,6 +190,7 @@
 }
 #page-sidebar .styled-select {
   width: 100%;
+  background: url('https://bart-kooi.github.io/tee-candy-temp/chevron-down.png')
 }
 #page-sidebar .styled-select select {
   line-height: 2;
