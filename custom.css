@@ -329,6 +329,10 @@
     border-radius: 20px;
 }
 
+.font-img{
+  max-height:70%;
+}
+
 @media only screen and (max-width: 767px) {
   #add-to-cart {
       display: block;
