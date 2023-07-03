@@ -333,7 +333,7 @@ body{
   margin-left: 0;
 }
 
-.popup-contents .actions>button{
+.popup-contents .actions>button, .popup-contents .button{
     background: #e94949;
     color: white;
     border-radius: 20px;
