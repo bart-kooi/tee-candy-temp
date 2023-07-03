@@ -334,8 +334,8 @@ body{
 }
 
 .popup-contents .actions>button, .popup-contents .button{
-    background: #e94949;
-    color: white;
+    background: #e94949 !important;
+    color: white !important;
     border-radius: 20px;
 }
 
