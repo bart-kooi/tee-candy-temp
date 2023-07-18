@@ -144,7 +144,7 @@ body{
   background-position: left center;
 }
 #page-sidebar #image-areas-container .expando header a::after {
-  content: "Upload an image";
+  content: "Choose an image";
   clear: both;
   font-size: 10px;
   display: block;
