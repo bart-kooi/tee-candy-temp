@@ -83,7 +83,7 @@ body{
   text-align: left;
 }
 #page-sidebar #aspects .expando header a::after {
-  content:"Choose your colour";
+  content:"Select a view angle";
   clear: both;
   font-size: 10px;
   display: block;
