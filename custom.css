@@ -98,8 +98,7 @@ body{
 }
 
 .controls:first-of-type::before{
-      content:"Resize/Move";
-  content:"Select a view angle";
+  content:"Resize/Move";
   clear: both;
   font-size: 10px;
   display: block;
