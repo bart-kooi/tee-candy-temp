@@ -91,6 +91,7 @@ body{
 
 #page-sidebar #aspects .expando header a::after {
   content:"";
+  min-height:10px;
   clear: both;
   font-size: 10px;
   display: block;
