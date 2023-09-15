@@ -35,7 +35,7 @@ body{
 .box > header > h1:hover,
 .expando:hover h1:hover a:hover,
 .expando:hover h1:hover a :hover {
-  color: #ee561e;
+  color: #e94949;
 }
 
 #page-sidebar article {
@@ -59,7 +59,7 @@ body{
 #page-sidebar #add-to-cart {
   margin: 9px;
   border-radius: 47px;
-  background: #ee561e;
+  background: #e94949;
   padding: 11px;
   width: 260px;
   font-size: 6px;
@@ -68,7 +68,7 @@ body{
 #page-sidebar #add-to-cart h1 {
   color: #fff !important;
   font-size: 20px;
-  background-color: #ee561e;
+  background-color: #e94949;
   font-weight: normal;
 }
 
@@ -88,19 +88,12 @@ body{
   background-position: left center;
   text-align: left;
 }
-#page-sidebar #aspects .expando header a::after {
+
+.controls:first-of-type::before{      
+  display: table-caption;
   content:"Resize/Move";
   clear: both;
   font-size: 10px;
-  display: block;
-  text-align: left;
-}
-
-.controls::before{
-  content:"Select a view angle";
-  clear: both;
-  font-size: 10px;
-  display: block;
   text-align: left;
 }
 
@@ -225,7 +218,7 @@ body{
 #page-sidebar #add-to-cart h1 {
   color: #fff !important;
   font-size: 17px;
-  background-color: #ee561e;
+  background-color: #e94949;
   font-weight: normal;
 }
 
@@ -348,7 +341,7 @@ body{
 }
 
 .popup-contents .actions>button, .popup-contents .button{
-    background: #ee561e !important;
+    background: #e94949 !important;
     color: white !important;
     border-radius: 20px;
 }
