@@ -88,16 +88,8 @@ body{
   background-position: left center;
   text-align: left;
 }
-#page-sidebar #aspects .expando header a::after {
-  content:"Select a view angle";
-  clear: both;
-  font-size: 10px;
-  display: block;
-  text-align: left;
-}
 
-.controls:first-of-type::before{
-      
+.controls:first-of-type::before{      
   display: table-caption;
   content:"Resize/Move";
   clear: both;
