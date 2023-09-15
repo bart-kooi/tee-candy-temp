@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body > div:last-of-type{
+      right: 42px;
+    top: 0px;
+    font-size: 35px;
+}
+
+body{
+  font-family:'Poppins';
+  overflow-y:scroll;
+  overflow-x:hidden;
+}
+
+/* tab headers color = #ed1a3b */
+.box > header > h1,
+.expando h1 a,
+.expando h1 a:visited {
+  font-size: 20px;
+  color: #666666;
+  font-weight: normal;
+}
+
+#page-sidebar {
+  padding: 10px;
+  border: 1px solid #c6cccf;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  width: 300px;
+  background-color: white;
+  
+}
+
+.box > header > h1:hover,
+.expando:hover h1:hover a:hover,
+.expando:hover h1:hover a :hover {
+  color: #ee561e;
+}
+
+#page-sidebar article {
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-box-shadow: 0px;
+  -webkit-box-shadow: 0px;
+  box-shadow: none;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* add to basket button */
+#page-sidebar #add-to-cart {
+  margin: 9px;
+  border-radius: 47px;
+  background: #ee561e;
+  padding: 11px;
+  width: 260px;
+  font-size: 6px;
+  height: 24px;
+}
+#page-sidebar #add-to-cart h1 {
+  color: #fff !important;
+  font-size: 20px;
+  background-color: #ee561e;
+  font-weight: normal;
+}
+
+#page-sidebar #add-to-cart .add-to-cart-icon {
+  display: none;
+}
+
+#page-sidebar h1 {
+  text-align: left;
+  margin-left: 55px;
+}
+
+#page-sidebar #aspects .expando header {
+  background-image: url("https://bart-kooi.github.io/tee-candy-temp/view-angles.png");
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: left center;
+  text-align: left;
+}
+#page-sidebar #aspects .expando header a::after {
+  content:"Resize/Move";
+  clear: both;
+  font-size: 10px;
+  display: block;
+  text-align: left;
+}
+
+.controls::before{
+  content:"Select a view angle";
+  clear: both;
+  font-size: 10px;
+  display: block;
+  text-align: left;
+}
+
+#page-sidebar #save-sample header {
+  background-image: url("https://bart-kooi.github.io/tee-candy-temp/enquire.png");
+  background-repeat: no-repeat;
+  background-position: left 10px center;
+  text-align: left;
+  background-size: contain;
+}
+#page-sidebar #save-sample header a::after {
+  content:"Submit an enquiry";
+  clear: both;
+  font-size: 10px;
+  display: block;
+  text-align: left;
+}
+#page-sidebar #save-sample img{
+  display:none;
+}
+
+#page-sidebar #views-container .expando header {
+  background-image: url("https://bart-kooi.github.io/tee-candy-temp/size.png");
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: left center;
+  text-align: left;
+}
+#page-sidebar #views-container .expando header a::after {
+  content:"Select your garment size";
+  clear: both;
+  font-size: 10px;
+  display: block;
+  text-align: left;
+}
+
+#page-sidebar #text-areas-container .expando header {
+  background-image: url("https://bart-kooi.github.io/tee-candy-temp/add-text.png");
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: left center;
+}
+#page-sidebar #text-areas-container .expando header a::after {
+  content: "Select your font and font size";
+  clear: both;
+  font-size: 10px;
+  display: block;
+  text-align: left;
+}
+
+#page-sidebar #image-areas-container .expando header {
+  background-image: url("https://bart-kooi.github.io/tee-candy-temp/add-image.png");
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: left center;
+}
+#page-sidebar #image-areas-container .expando header a::after {
+  content: "Choose an image";
+  clear: both;
+  font-size: 10px;
+  display: block;
+  text-align: left;
+}
+
+#page-sidebar #colour-areas-container .expando header {
+  background-image: url("http://promotionalcontent.promidata.com/3d/css/cssimages/kleuren.png");
+  background-repeat: no-repeat;
+  background-position: -5% 69%;
+}
+#page-sidebar #colour-areas-container .expando header a::after {
+  content: "Choose a colour";
+  clear: both;
+  font-size: 10px;
+  display: block;
+  text-align: left;
+}
+
+#page-sidebar #attributes-container .expando header {
+  background-image: url("http://promotionalcontent.promidata.com/3d/css/cssimages/maten.png");
+  background-repeat: no-repeat;
+  background-position: -1% 69%;
+}
+#page-sidebar #attributes-container .expando header a::after {
+  content: "Select your size";
+  clear: both;
+  font-size: 10px;
+  display: block;
+  text-align: left;
+}
+
+#page-sidebar .quantity-tab.box header {
+  background-image: url("https://bart-kooi.github.io/tee-candy-temp/quantity.png");
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+#page-sidebar .quantity-tab.box header h1::after {
+  content: "Choose the order quantity";
+  clear: both;
+  font-size: 10px;
+  display: block;
+  text-align: left;
+}
+#page-sidebar .simple-quantity{
+  width:110px;
+}
+#page-sidebar .quantity-input{
+  text-align:center;
+  width:30px !important;
+  padding:5px;
+  border-radius:5px;
+}
+
+#page-sidebar #add-to-cart header h1 {
+  background-image: url(http://promotionalcontent.promidata.com/3d/css/cssimages/winkelwagen.png);
+  background-repeat: no-repeat;
+  background-position: 4% 47%;
+  padding: 1px 0px;
+  margin: 0px;
+  background-size: 25px;
+}
+
+#page-sidebar #add-to-cart h1 {
+  color: #fff !important;
+  font-size: 17px;
+  background-color: #ee561e;
+  font-weight: normal;
+}
+
+#page-sidebar #add-to-cart header h1 span {
+  margin-left: 50px;
+}
+#page-sidebar .styled-select {
+  width: 100%;
+    background: url("https://bart-kooi.github.io/tee-candy-temp/chevron-down.png");
+    background-size: 25px 25px;
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+}
+#page-sidebar .styled-select select {
+  line-height: 2;
+  padding-left: 20px;
+}
+#page-sidebar .colour-panel {
+  max-height: none;
+}
+#page-sidebar .colour-panel .colour-box {
+  width: 28px;
+  height: 28px;
+  margin: 4px;
+}
+
+#pricing-summary,
+#bottom-prices {
+  display: block;
+}
+#product-info-price {
+  display: block;
+  font-size: 10pt;
+}
+#product-info-name {
+  float: left;
+  font-size: 10pt;
+  margin: 2px;
+  padding: 2px;
+  width: 70%;
+  box-sizing: border-box;
+}
+#bottom-prices > article h1 {
+  font-size: 1em;
+  font-weight: bold;
+  width: 100px;
+}
+#product-info {
+  margin: 6px;
+}
+
+#bottom-prices > article {
+  border: hidden;
+}
+
+#page-sidebar {
+  display: flex;
+  /* Optional, if you want the DIVs 100% width: */
+  flex-direction: column;
+}
+
+#page-sidebar > #bottom-prices {
+  margin-top: -17px;
+}
+
+#bottom-prices > article {
+  width: 100%;
+  margin-bottom: 2px;
+}
+
+#bottom-prices > article:nth-child(1) > header > h1 {
+  float: left;
+  margin-left: -1px;
+  font-weight: normal;
+}
+
+#bottom-prices > article:nth-child(2) > header > h1 {
+  float: left;
+  margin-left: -1px;
+}
+
+#bottom-prices > article > h2 {
+  float: right;
+  padding-right: 20px;
+  padding-top: 3px;
+}
+
+#product-info {
+  display: none;
+}
+
+#help-outer-container > article > div {
+  padding-left: 7px;
+}
+
+#pricing-summary > table > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(3) {
+  padding-right: 20px;
+  float: right;
+}
+
+#pricing-summary > table > tbody:nth-child(5) > tr:nth-child(1) > td:nth-child(3) {
+  padding-right: 20px;
+  float: right;
+}
+#pricing-summary > table > tbody:nth-child(5) > tr:nth-child(3) > td:nth-child(3) {
+  padding-right: 20px;
+  float: right;
+}
+
+.popup-contents{
+  padding:10px;
+  left:10%;
+  position:fixed;
+}
+
+.popup-contents input{
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 0;
+}
+
+.popup-contents .actions>button, .popup-contents .button{
+    background: #ee561e !important;
+    color: white !important;
+    border-radius: 20px;
+}
+
+.text-area-input{
+  padding:5px;
+  border-radius:5px;
+}
+
+.font-img{
+  max-width:80%;
+}
+
+.zoom-in::after{
+  content:"";
+}
+
+.popup-mask{
+  position:fixed;
+}
+
+@media only screen and (max-width: 767px) {
+  #add-to-cart {
+      display: block;
+      width: 93%;
+  }
+}
