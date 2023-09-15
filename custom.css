@@ -35,7 +35,7 @@ body{
 .box > header > h1:hover,
 .expando:hover h1:hover a:hover,
 .expando:hover h1:hover a :hover {
-  color: #e94949;
+  color: #ee561e;
 }
 
 #page-sidebar article {
@@ -59,7 +59,7 @@ body{
 #page-sidebar #add-to-cart {
   margin: 9px;
   border-radius: 47px;
-  background: #e94949;
+  background: #ee561e;
   padding: 11px;
   width: 260px;
   font-size: 6px;
@@ -68,7 +68,7 @@ body{
 #page-sidebar #add-to-cart h1 {
   color: #fff !important;
   font-size: 20px;
-  background-color: #e94949;
+  background-color: #ee561e;
   font-weight: normal;
 }
 
@@ -218,7 +218,7 @@ body{
 #page-sidebar #add-to-cart h1 {
   color: #fff !important;
   font-size: 17px;
-  background-color: #e94949;
+  background-color: #ee561e;
   font-weight: normal;
 }
 
@@ -341,7 +341,7 @@ body{
 }
 
 .popup-contents .actions>button, .popup-contents .button{
-    background: #e94949 !important;
+    background: #ee561e !important;
     color: white !important;
     border-radius: 20px;
 }
